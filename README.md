@@ -12,6 +12,7 @@ Please see http://www.mrtc.mdh.se/projects/wcet/sweet/ for more information. The
 
 ## Features
 * Working syntax highlighting
+* Working ALF-lint using well-known Syntastic plugin
 * Primitive Indentation
 
 ## Installation
@@ -25,7 +26,6 @@ this repo into your `~/.vim/bundle` directory and you are ready to go.
 Be sure that the following lines are in your
 `.vimrc`
 
-
     syntax on
     filetype plugin indent on
 
@@ -34,5 +34,6 @@ Be sure that the following lines are in your
 Copy content into your `~/.vim` directory.
 
 ## Future improvements
-* Smart indentation
+* Smarter indentation
+* Text-objects (although {c,v,y}-{i,a}-{ works great atm)
 * Indicate bit-width number with a different color
