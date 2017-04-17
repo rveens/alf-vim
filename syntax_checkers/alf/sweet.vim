@@ -22,7 +22,6 @@ function! SyntaxCheckers_alf_sweet_GetLocList() dict
 	" example: sweet -i=filename.alf 
 	" there must be no spaces between -i= and the filename string
 	let makeprg = self.makeprgBuild({
-				\ 'exe': self.getExec(),
                 \ "fname": "-i=" . syntastic#util#shexpand('%') })
 
 	" Example SWEET output error:
